@@ -1,0 +1,60 @@
+/* About.css */
+.section {
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .section-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    font-family: cursive;
+  }
+  
+  .section-text {
+    font-size: 16px;
+    color: white
+  }
+
+  /* About.css */
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* make the image go to the right edge */
+  }
+  
+  .about-image {
+    width: 50%; /* adjust the width to your liking */
+    margin: 0; /* remove any margin */
+   
+    margin-left: -40px;
+    
+  }
+
+.about-text {
+  flex: 1; /* take up the remaining space */
+}
+
+.section-text{
+    font-size: 60px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+}
+
+.text1{
+    font-size: 80px;
+    color:wheat;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: cursive;
+}

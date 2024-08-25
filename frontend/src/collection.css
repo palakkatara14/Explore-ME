@@ -1,0 +1,81 @@
+
+
+
+   .collection-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .collection-component h1 {
+    font-size: 2em;
+    color: white
+  }
+  
+  .collection-component input[type="text"] {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .collection-component button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .collection-component button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-item {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-item img {
+    max-width: 200px;
+    max-height: 150px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .similar-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .similar-images img {
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .collection-component p {
+    color: white;
+  }
+  
+  

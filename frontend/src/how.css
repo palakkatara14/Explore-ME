@@ -1,0 +1,22 @@
+.t1{
+    font-size: 40px;
+    font-family: cursive;
+    color: whitesmoke;
+    margin-right: 60px;
+
+}
+
+.t {
+    font-size: 30px;
+    color: wheat;
+    margin-top: 20px;
+    margin-right: 30px;
+    text-align: left; 
+    margin-left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .t2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }

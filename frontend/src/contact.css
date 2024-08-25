@@ -1,0 +1,44 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('../public/main background.jpg') center center;
+  position: relative;
+}
+
+.contact-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.contact-label {
+  font-size: 50px;
+  margin-right: 10px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .contact-links {
+  display: flex;
+  align-items: center;
+  
+} */
+
+.contact-link {
+  cursor: pointer;
+  font-size: 40px;
+  margin-right: 10px;
+  color: rgb(172, 116, 170);
+  margin-top: 30px;
+}
+
+
+.contact-link:hover {
+  color: #553151;
+  text-decoration: underline;
+}

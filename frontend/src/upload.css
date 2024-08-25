@@ -1,0 +1,77 @@
+
+
+  .upload-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .upload-component input[type="file"] {
+    margin: 40px 0 auto;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .upload-component button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .upload-component button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .image-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-preview img {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .similar-images {
+    margin-top: 20px;
+  }
+  
+  .similar-images img {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .similar-images h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+     
+  }
+  .upload-component button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .upload-component button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .upload-component button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore-Me</title>
+
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    navigator.mediaDevices.getUserMedia({video:true,audio:false}).then(
+      stream=>console.log("camera access granted")
+
+    ).catch(error=> console.error("error accessing camera",error));
+  </script>
+
+  
+  <script src="index.js"></script>
+
+  
+</body>
+</html>
